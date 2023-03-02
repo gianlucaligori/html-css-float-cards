@@ -6,20 +6,30 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 1000px;
-    margin: auto;
 }
 
-.intro {
-        text-align: center;
-        margin-bottom: 4em;
+.header {
+    text-align: center;
+    margin-bottom: 4em;
 }
 
 
 h1 {
+    font-size: 2.5em;
     margin-top: 2em;
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     color: rgba(229,49,112,255);
+}
+
+h1, p {
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    margin-bottom: 3em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .box {
@@ -30,9 +40,14 @@ h1 {
     float: left;
     background-color: black;
     border: none;
+    box-shadow: 0 0 3px 1px rgb(0, 0, 0);
 
 }
 
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 .img {
     height: 5em;
